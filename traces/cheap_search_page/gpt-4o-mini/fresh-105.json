@@ -1,0 +1,61 @@
+{
+  "task": {
+    "id": "fresh-105",
+    "source": "fresh",
+    "question": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?",
+    "answer": "¥60–120",
+    "evidence": "2 April – Air China, China Southern Airlines, and its subsidiary XiamenAir increase fuel surcharges by ¥60–120 (US$8.70–17.5) on domestic flights in response to rising oil prices linked to the 2026 Iran war.",
+    "page": "2026 in China",
+    "url": "https://en.wikipedia.org/wiki/2026_in_China",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "I currently do not have access to the latest information regarding the increase in fuel surcharges by Air China and China Southern Airlines in April 2026. Please check official airline announcements or news sources for the most accurate and up-to-date information. \n\nFINAL: <information not available>.",
+  "final": "<information not available>.",
+  "correct": false,
+  "cost": 0.00018885,
+  "seconds": 4.742842683997878,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_6ZlKBQwUMZl8hdv6oVtuL5TI",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Air China China Southern Airlines fuel surcharges April 2026\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_6ZlKBQwUMZl8hdv6oVtuL5TI",
+      "content": "Search error: HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Air+China+China+Southern+Airlines+fuel+surcharges+April+2026&srlimit=3&format=json"
+    },
+    {
+      "role": "user",
+      "content": "Tools are unavailable now. Answer from gathered evidence. End with FINAL: <short answer>."
+    },
+    {
+      "role": "assistant",
+      "content": "I currently do not have access to the latest information regarding the increase in fuel surcharges by Air China and China Southern Airlines in April 2026. Please check official airline announcements or news sources for the most accurate and up-to-date information. \n\nFINAL: <information not available>.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

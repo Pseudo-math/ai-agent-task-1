@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-50",
+    "source": "fresh",
+    "question": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?",
+    "answer": "802,500 lira",
+    "evidence": "29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.",
+    "page": "2026 in Turkey",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"Amed S.F.K. Turkish Football Federation fine January 29 2026\")",
+  "final": "web_search(\"Amed S.F.K. Turkish Football Federation fine January 29 2026\")",
+  "correct": false,
+  "cost": 2.355e-05,
+  "seconds": 1.0840798239987635,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"Amed S.F.K. Turkish Football Federation fine January 29 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

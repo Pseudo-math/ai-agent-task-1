@@ -1,0 +1,101 @@
+{
+  "task": {
+    "id": "fresh-78",
+    "source": "fresh",
+    "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+    "answer": "13.2 months",
+    "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+    "page": "2026 in science",
+    "url": "https://en.wikipedia.org/wiki/2026_in_science",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "FINAL: According to a Phase 3 trial published in the New England Journal of Medicine on May 31, 2026, the median overall survival time for patients with previously treated metastatic pancreatic cancer receiving daraxonrasib (a RAS inhibitor) was 13.2 months, compared to 6.6 months with standard chemotherapy.",
+  "final": "According to a Phase 3 trial published in the New England Journal of Medicine on May 31, 2026, the median overall survival time for patients with previously treated metastatic pancreatic cancer receiving daraxonrasib (a RAS inhibitor) was 13.2 months, compared to 6.6 months with standard chemotherapy.",
+  "correct": true,
+  "cost": 0.01038,
+  "seconds": 24.198870462998457,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about median overall survival time for metastatic pancreatic cancer patients.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01R2qx4EKasbCLfcHPYCaAep",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"median overall survival metastatic pancreatic cancer May 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01R2qx4EKasbCLfcHPYCaAep",
+      "content": "[Pancreatic cancer] Pancreatic cancer is any cancer with a primary location in the pancreas, a glandular organ lying behind the stomach. It arises when cells in the pancreas\n[Daraxonrasib] in the United States in August 2026 . Daraxonrasib is indicated for the treatment of adults with metastatic pancreatic adenocarcinoma who have received\n[2026 in science] RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer , from 6.6 months with standard"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for more specific information about this RAS inhibitor and the survival data.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Jr9HWLFsy9fv4VmSD3ZedK",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"RAS inhibitor metastatic pancreatic cancer median overall survival 6.6 months 2026\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Jr9HWLFsy9fv4VmSD3ZedK",
+      "content": "[Pancreatic cancer] metastatic PDAC have a 5-year survival of only 3% regardless of treatment. Daraxonrasib is a RAS inhibitor that unlike other RAS inhibitors inhibits all\n[2026 in science] oral RAS (ON) inhibitor , nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer , from 6 . 6 months with\n[Daraxonrasib] brand name Rasonque, is an anti- cancer medication used for the treatment of pancreatic cancer . It is an inhibitor of the RAS GTPase family. It is an orally"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me get more details from the \"2026 in science\" article which seems to have the specific information.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01E8SbSfB1moLnkbPYuiGFPi",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"2026 in science\", \"keywords\": \"median overall survival metastatic pancreatic cancer May 2026\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01E8SbSfB1moLnkbPYuiGFPi",
+      "content": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib , an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer , from 6.6 months with standard chemotherapy to 13.2 months. [ 103 ] [ 104 ]\n^ \"Revolution's pancreatic cancer drug doubles survival, boosts quality of life\" . Reuters . 31 May 2026 . Retrieved 1 June 2026 .\n^ O'Reilly, Eileen M.; Wainberg, Zev A.; Hendifar, Andrew E.; et al. (31 May 2026). \"Daraxonrasib or Chemotherapy in Previously Treated Metastatic Pancreatic Cancer\". New England Journal of Medicine . 395 (4) NEJMoa2605555. doi : 10.1056/NEJMoa2605555 . PMID 42223072 .\n^ \"FDA approves landmark pancreatic cancer drug that's shown to improve survival\" . Associated Press News .\n^ Ananthan, Padmanabhan; Santhosh, Christy (26 August 2026). \"Revolution's lifesaving pancreatic cancer drug wins speedy FDA approval\" . Reuters .\nThe U.S. Food and Drug Administration approves the RAS inhibitor drug daraxonrasib as a treatment for metastatic pancreatic cancer . [ 147 ] [ 148 ]"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: According to a Phase 3 trial published in the New England Journal of Medicine on May 31, 2026, the median overall survival time for patients with previously treated metastatic pancreatic cancer receiving daraxonrasib (a RAS inhibitor) was 13.2 months, compared to 6.6 months with standard chemotherapy.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

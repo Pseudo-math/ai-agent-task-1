@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-102",
+    "source": "fresh",
+    "question": "Who was recognized as Hero of Ukraine in 2025?",
+    "answer": "Oleksandr Dovhach",
+    "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+    "page": "2026 in Ukraine",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "web_search(\"Hero of Ukraine 2025\")",
+  "final": "web_search(\"Hero of Ukraine 2025\")",
+  "correct": false,
+  "cost": 1.56e-05,
+  "seconds": 0.9788351610004611,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "Who was recognized as Hero of Ukraine in 2025?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"Hero of Ukraine 2025\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""Проверка датасета свежих вопросов перед сдачей домашки.
-
-Запуск: python check_fresh.py data/fresh.jsonl [--sonnet]
-
-Без ключа: проверяет формат записей и что ответ дословно есть в цитате из источника.
-С флагом --sonnet: прогоняет сильную модель без инструментов и печатает долю верных.
-Критерий свежести: не выше 20 процентов. Вопросы, на которые Sonnet ответил верно, печатаются списком, их надо переписать или убрать.
-"""
 import sys, json, argparse
 from pathlib import Path
 
@@ -28,7 +19,7 @@ def load(path):
 
 
 def check_format(rows):
-    from fetch_fresh import normalize
+    from homework_agent import normalize
     problems = 0
     ids = set()
     for r in rows:
@@ -55,14 +46,17 @@ def check_format(rows):
 
 
 def check_sonnet(rows):
-    import fetch_fresh as f
+    import homework_agent as h
     right = []
+    before = h.ledger.total
     for r in rows:
-        ans = f.strong_answer(r["question"])
-        if f.normalize(r["answer"]) in f.normalize(ans):
+        run = h.agent(r["question"], h.MODELS["strong"], [])
+        ans = h.final_answer(run.answer)
+        if h.is_correct(r["answer"], ans):
             right.append((r["id"], r["question"], ans))
     share = len(right) / len(rows) if rows else 0
-    print(f"\nSonnet без инструментов: {len(right)} из {len(rows)} верно, {share:.0%}. Потрачено ${f.COST:.3f}")
+    print(f"\nSonnet без инструментов: {len(right)} из {len(rows)} верно, {share:.0%}. "
+          f"Потрачено ${h.ledger.total - before:.3f}")
     print("критерий свежести " + ("пройден" if share <= 0.2 else "НЕ пройден: не выше 20 процентов"))
     for rid, q, ans in right:
         print(f"  {rid}: {q[:90]} -> {ans[:40]}")

@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-6",
+    "source": "fresh",
+    "question": "How many people are reported missing in Tibet after the floods in August 2026?",
+    "answer": "4,500",
+    "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "I will search for information regarding the reported missing people in Tibet after the floods in August 2026. \n\nweb_search(\"Tibet floods August 2026 missing people\")",
+  "final": "I will search for information regarding the reported missing people in Tibet after the floods in August 2026. \n\nweb_search(\"Tibet floods August 2026 missing people\")",
+  "correct": false,
+  "cost": 3.135e-05,
+  "seconds": 6.211228610001854,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "How many people are reported missing in Tibet after the floods in August 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information regarding the reported missing people in Tibet after the floods in August 2026. \n\nweb_search(\"Tibet floods August 2026 missing people\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-73",
+    "source": "fresh",
+    "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+    "answer": "Han Hak-ja",
+    "evidence": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.",
+    "page": "2026 in South Korea",
+    "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "I will search for information regarding the sentencing for bribery in South Korea on August 31, 2026. \n\nweb_search(\"South Korea bribery sentencing August 31 2026\")",
+  "final": "I will search for information regarding the sentencing for bribery in South Korea on August 31, 2026. \n\nweb_search(\"South Korea bribery sentencing August 31 2026\")",
+  "correct": false,
+  "cost": 3.465e-05,
+  "seconds": 1.7965660539994133,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information regarding the sentencing for bribery in South Korea on August 31, 2026. \n\nweb_search(\"South Korea bribery sentencing August 31 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

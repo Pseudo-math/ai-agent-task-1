@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-115",
+    "source": "fresh",
+    "question": "How many people were killed in the Kenya floods on March 6–7, 2026?",
+    "answer": "66",
+    "evidence": "March 6–7 – 2026 Kenya floods: At least 66 people are killed after floods across Kenya.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "I will search for information regarding the Kenya floods that occurred on March 6–7, 2026. \n\nweb_search(\"Kenya floods March 6-7 2026 death toll\")",
+  "final": "I will search for information regarding the Kenya floods that occurred on March 6–7, 2026. \n\nweb_search(\"Kenya floods March 6-7 2026 death toll\")",
+  "correct": false,
+  "cost": 3.48e-05,
+  "seconds": 2.027922622997721,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the Kenya floods on March 6–7, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information regarding the Kenya floods that occurred on March 6–7, 2026. \n\nweb_search(\"Kenya floods March 6-7 2026 death toll\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

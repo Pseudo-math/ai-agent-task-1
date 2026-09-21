@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-78",
+    "source": "fresh",
+    "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+    "answer": "13.2 months",
+    "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+    "page": "2026 in science",
+    "url": "https://en.wikipedia.org/wiki/2026_in_science",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "I will search for the latest information on the median overall survival time for patients with metastatic pancreatic cancer as of May 2026. \n\nweb_search(\"median overall survival time metastatic pancreatic cancer May 2026\")",
+  "final": "I will search for the latest information on the median overall survival time for patients with metastatic pancreatic cancer as of May 2026. \n\nweb_search(\"median overall survival time metastatic pancreatic cancer May 2026\")",
+  "correct": false,
+  "cost": 3.6e-05,
+  "seconds": 1.7827426420008123,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for the latest information on the median overall survival time for patients with metastatic pancreatic cancer as of May 2026. \n\nweb_search(\"median overall survival time metastatic pancreatic cancer May 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "task": {
+    "id": "fresh-72",
+    "source": "fresh",
+    "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+    "answer": "Dharmendra Pradhan",
+    "evidence": "The Cockroach Janta Party organises the Sansad Chalo March demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "FINAL: The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan, the Union Minister of Education.",
+  "final": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan, the Union Minister of Education.",
+  "correct": true,
+  "cost": 0.008093,
+  "seconds": 19.313700726001116,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the Cockroach Janta Party and their demands regarding the Education Minister in India in 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01EFRvgnYsgzRRe5jf5uQF3n",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Cockroach Janta Party Education Minister resign 2026 India\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01EFRvgnYsgzRRe5jf5uQF3n",
+      "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. ' Cockroach People's Party '), also known as the Cockroach movement, is an Indian youth-based satirical political movement\n[2026 Delhi Jantar Mantar protests] place in Jantar Mantar, New Delhi, India , between 6 June and 25 July 2026 . They were initiated by the Cockroach Janta Party (CJP), an Indian youth-based satirical\n[Abhijeet Dipke] satire movement Cockroach Janta Party . The movement organised demonstrations including a protest at Jantar Mantar in New Delhi in June 2026 . Before founding"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for more specific information about the 2026 Delhi Jantar Mantar protests and the Education Minister.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01FCgX9FqEr8d7DZCrU2rzNX",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"2026 Delhi Jantar Mantar protests\", \"keywords\": \"Education Minister resign demand\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01FCgX9FqEr8d7DZCrU2rzNX",
+      "content": "^ \"CJP Demands Education Minister's Resignation in Bengaluru Protest Over National Exam Irregularities\" . ETV Bharat . 15 June 2026 . Retrieved 15 June 2026 .\nDuring his hunger strike, Wangchuk said the movement had \"no political colour\" and described its demands as an appeal for accountability and reform in the education system, not just the resignation of the education minister. [ 27 ]\nProminent Ladakhi environmentalist and engineer Sonam Wangchuk joins the protest, declaring an indefinite hunger strike alongside six students of the All India Students Association (AISA), demanding the resignation of Dharmendra Pradhan , the Union Minister of Education . [ 6 ]\nThe CJP held its first street protest at Jantar Mantar, New Delhi on 6 June 2026, to demand the resignation of Dharmendra Pradhan , the union minister of education ; [ 51 ] it was the first major demonstration at Jantar Mantar since the 2023 Indian wrestlers' protest . [ 8 ] The Delhi Police granted permission for the protest until 5 P.M. in what they described as a one-time exception. [ 46 ] The police deployed around 5,000 personnel in the New Delhi district and strengthened their presence at several locations, including Indira Gandhi International Airport , ahead of the protest. [ 114 ] [ 115 ] Organisers asked participants to protest peacefully and encouraged them to bring the national flag and a book, which they said symbolised the right to education and equal opportunity. [ 116 ] [ 117 ]\nThe protests coincided with repeated disruptions to the Monsoon session of Parliament. Opposition members pressed for Pradhan's resignation as a precondition for any discussion of the alleged NEET-UG paper leak, while the government maintained that it was willing to hold a debate without preconditions. [ 102 ] On 23 July, the fourth consecutive day of disruptions since the session began, both the Lok Sabha and the Rajya Sabha were adjourned multiple times after opposition members raised slogans demanding Pradhan's dismissal. [ 103 ] Parliamentary Affairs Minister Kiren Rijiju said the government had approached the Congress and other opposition parties to hold the debate and that members could speak for as long as they wished, but accused the opposition of \"trying to run away\" from the discussion by attaching preconditions. [ 103 ] Leader of the Opposition in the Rajya Sabha Mallikarjun Kharge responded that the Education Minister should resign before any debate could take place. [ 102 ]\nA series of demonstrations took place in Jantar Mantar, New Delhi , India, between 6 June and 25 July 2026. They were initiated by the Cockroach Janta Party (CJP), an Indian youth-based satirical political movement , along with left-wing student organisations [ 16 ] [ 17 ] including the All India Students Federation , All India Students Association , and Students' Federation of India . [ 18 ] [ 19 ] Held primarily at Jantar Mantar in New Delhi , the protesters have demanded the resignation of Union Education Minister Dharmendra Pradhan over irregularities in several of that year's national examinations — the 2026 NEET paper leak and the CBSE On-Screen Marking irregularities — along with broader reforms in the conduct of public examinations. [ 20 ] [ 21 ] The CJP, along with the Congress party , also sought compensation for the families of students who died by suicide due to the examination turmoil. [ 22 ] The agitation drew national attention after activist Sonam Wangchuk began an indefinite hunger strike at the protest site on 28 June. [ 23 ]"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan, the Union Minister of Education.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

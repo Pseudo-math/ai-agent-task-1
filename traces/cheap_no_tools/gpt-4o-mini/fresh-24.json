@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-24",
+    "source": "fresh",
+    "question": "In the United Kingdom, what is declared across the whole of Wales in July 2026?",
+    "answer": "a drought",
+    "evidence": "2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.",
+    "page": "2026 in the United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "I will search for information regarding what is declared across the whole of Wales in July 2026. \n\nweb_search(\"Wales July 2026 declaration\")",
+  "final": "I will search for information regarding what is declared across the whole of Wales in July 2026. \n\nweb_search(\"Wales July 2026 declaration\")",
+  "correct": false,
+  "cost": 2.985e-05,
+  "seconds": 1.5530016400007298,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "In the United Kingdom, what is declared across the whole of Wales in July 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information regarding what is declared across the whole of Wales in July 2026. \n\nweb_search(\"Wales July 2026 declaration\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

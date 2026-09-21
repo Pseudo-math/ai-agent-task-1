@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-113",
+    "source": "fresh",
+    "question": "How many job cuts did Statistics Canada announce on January 13, 2026?",
+    "answer": "850",
+    "evidence": "January 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.",
+    "page": "2026 in Canada",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"Statistics Canada job cuts January 13 2026\")",
+  "final": "web_search(\"Statistics Canada job cuts January 13 2026\")",
+  "correct": false,
+  "cost": 1.875e-05,
+  "seconds": 0.9918560389996856,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "How many job cuts did Statistics Canada announce on January 13, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"Statistics Canada job cuts January 13 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

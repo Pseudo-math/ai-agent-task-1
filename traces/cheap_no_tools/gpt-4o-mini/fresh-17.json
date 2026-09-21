@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-17",
+    "source": "fresh",
+    "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+    "answer": "EOS-05",
+    "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+    "page": "2026 in spaceflight",
+    "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "I will search for information regarding ISRO's launch on September 3, 2026. \n\nweb_search(\"ISRO launch September 3 2026\")",
+  "final": "I will search for information regarding ISRO's launch on September 3, 2026. \n\nweb_search(\"ISRO launch September 3 2026\")",
+  "correct": false,
+  "cost": 3.045e-05,
+  "seconds": 2.912076855001942,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information regarding ISRO's launch on September 3, 2026. \n\nweb_search(\"ISRO launch September 3 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

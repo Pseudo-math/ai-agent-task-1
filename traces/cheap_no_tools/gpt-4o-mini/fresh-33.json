@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-33",
+    "source": "fresh",
+    "question": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?",
+    "answer": "Marilyn Gladu",
+    "evidence": "April 8 – Sarnia—Lambton—Bkejwanong MP Marilyn Gladu defects from the Conservative Party to the Liberal Party.",
+    "page": "2026 in Canada",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "web_search(\"MP defected from Conservative Party to Liberal Party April 2026\")",
+  "final": "web_search(\"MP defected from Conservative Party to Liberal Party April 2026\")",
+  "correct": false,
+  "cost": 2.07e-05,
+  "seconds": 1.4916694610001286,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"MP defected from Conservative Party to Liberal Party April 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

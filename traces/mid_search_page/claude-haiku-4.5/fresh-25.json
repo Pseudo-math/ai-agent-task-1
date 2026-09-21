@@ -1,0 +1,123 @@
+{
+  "task": {
+    "id": "fresh-25",
+    "source": "fresh",
+    "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+    "answer": "\"open war\"",
+    "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "Based on the search results I found, on February 26, 2026, Pakistan declared that it had struck 22 locations across Afghanistan. According to The New York Times reference in the search results, this was characterized as \"Open War\" against the Taliban. Pakistan said the strikes targeted militant positions in eastern Afghanistan.\n\nFINAL: On February 26, 2026, the government of Pakistan declared that it had carried out airstrikes hitting 22 locations across Afghanistan, which was characterized as an \"open war\" against the Taliban.",
+  "final": "On February 26, 2026, the government of Pakistan declared that it had carried out airstrikes hitting 22 locations across Afghanistan, which was characterized as an \"open war\" against the Taliban.",
+  "correct": true,
+  "cost": 0.013407,
+  "seconds": 33.47295134500018,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the Afghanistan-Pakistan war and what Pakistan declared on February 26, 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Fii9QzdhxT4RaycdhHuCUR",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Afghanistan Pakistan war February 26 2026 Pakistan declaration\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Fii9QzdhxT4RaycdhHuCUR",
+      "content": "[2025 Afghanistan–Pakistan conflict] that Afghanistan and Pakistan had agreed to a ceasefire after extensive Doha talks mediated by Qatar and Turkey. Under this ceasefire declaration , the\n[Pakistan] Riedel, Bruce (20 May 2010). \" Pakistan's Role in the Afghanistan War's Outcome\". Brookings Institution. Retrieved 26 August 2024. Rimmer, Peter J. (27\n[Israel–Pakistan relations] the Pakistani position on the Arab–Israeli conflict, there have been multiple instances of close cooperation, such as during the Soviet– Afghan War and"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search more specifically for the 2025 Afghanistan-Pakistan conflict:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_017JiTFCPMTsnHNPvd3XrDof",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"2025 Afghanistan Pakistan conflict ceasefire\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_017JiTFCPMTsnHNPvd3XrDof",
+      "content": "[2025 Afghanistan–Pakistan conflict] \" 2023 Afghanistan –Iran clash 2024 Iran– Pakistan conflict 2025 India– Pakistan conflict 2026 Afghanistan – Pakistan conflict Afghanistan – Pakistan relations\n[2026 Afghanistan–Pakistan war] February 2026 between Afghanistan and Pakistan following Pakistani airstrikes on militant targets in eastern Afghanistan . Pakistan said the strikes targeted\n[2025 India–Pakistan conflict] A brief armed conflict between India and Pakistan began on 7 May 2025 , after India launched missile strikes on Pakistan , in a military campaign codenamed"
+    },
+    {
+      "role": "assistant",
+      "content": "Now let me get more details from the 2026 Afghanistan-Pakistan war article:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_016m7FQDoLuWJgLEutHSE8AQ",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"2026 Afghanistan–Pakistan war\", \"keywords\": \"February 26 2026 Pakistan declaration\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_016m7FQDoLuWJgLEutHSE8AQ",
+      "content": "^ \"Pakistan says it hit 22 locations across Afghanistan\" . Al Jazeera. 26 February 2026.\n^ Sirat, Siyar (21 February 2026). \"Pakistan carries out airstrikes in eastern Afghanistan\" .\n^ Azizi, Ahmad (27 February 2026). \"Pakistani airstrikes reported in Laghman, Paktika\" . Amu TV.\n^ Pakistan Strikes Afghanistan in 'Open War' against Taliban The New York Times . 26 February 2026.\n^ Azizi, Ahmad (26 February 2026). \"Taliban claim 55 Pakistani troops killed in border fighting\" . Amu TV.\n^ \"Three Civilians Killed, 23 Injured in Pakistani Airstrikes in Khost\" . Hasht-e Subh . 28 February 2026."
+    },
+    {
+      "role": "assistant",
+      "content": "Let me search for more specific information about what Pakistan declared on that date:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01WMWGaZDbEiGyVQEHdfaE3X",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"2026 Afghanistan–Pakistan war\", \"keywords\": \"Pakistan declared February 26 open war\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01WMWGaZDbEiGyVQEHdfaE3X",
+      "content": "Page error: HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=parse&page=2026+Afghanistan%E2%80%93Pakistan+war&prop=text&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results I found, on February 26, 2026, Pakistan declared that it had struck 22 locations across Afghanistan. According to The New York Times reference in the search results, this was characterized as \"Open War\" against the Taliban. Pakistan said the strikes targeted militant positions in eastern Afghanistan.\n\nFINAL: On February 26, 2026, the government of Pakistan declared that it had carried out airstrikes hitting 22 locations across Afghanistan, which was characterized as an \"open war\" against the Taliban.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-54",
+    "source": "fresh",
+    "question": "How many people were killed in the fire at a shopping mall in Karachi on January 17, 2026?",
+    "answer": "80",
+    "evidence": "January 17 – A fire at a shopping mall in Karachi, Pakistan, kills 80 people.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"Karachi shopping mall fire January 17 2026\")",
+  "final": "web_search(\"Karachi shopping mall fire January 17 2026\")",
+  "correct": false,
+  "cost": 2.025e-05,
+  "seconds": 1.2036487629993644,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the fire at a shopping mall in Karachi on January 17, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"Karachi shopping mall fire January 17 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-121",
+    "source": "fresh",
+    "question": "What magnitude earthquake struck Yamanashi Prefecture in June 2026?",
+    "answer": "5.6",
+    "evidence": "June 27 – A magnitude 5.6 earthquake strikes Yamanashi Prefecture, injuring 10 people.",
+    "page": "2026 in Japan",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "I will search for information about an earthquake that struck Yamanashi Prefecture in June 2026. \n\nweb_search(\"Yamanashi Prefecture earthquake June 2026 magnitude\")",
+  "final": "I will search for information about an earthquake that struck Yamanashi Prefecture in June 2026. \n\nweb_search(\"Yamanashi Prefecture earthquake June 2026 magnitude\")",
+  "correct": false,
+  "cost": 3.225e-05,
+  "seconds": 2.262486102001276,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What magnitude earthquake struck Yamanashi Prefecture in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information about an earthquake that struck Yamanashi Prefecture in June 2026. \n\nweb_search(\"Yamanashi Prefecture earthquake June 2026 magnitude\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

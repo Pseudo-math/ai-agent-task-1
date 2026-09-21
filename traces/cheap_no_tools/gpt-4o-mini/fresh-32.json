@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-32",
+    "source": "fresh",
+    "question": "Who won the Archibald Prize on May 8, 2026?",
+    "answer": "Richard Lewer",
+    "evidence": "May 8 – Richard Lewer wins the Archibald Prize for his portrait of the Pitjantjatjara elder and artist Iluwanti Ken.",
+    "page": "2026 in art",
+    "url": "https://en.wikipedia.org/wiki/2026_in_art",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"Archibald Prize winner May 8 2026\")",
+  "final": "web_search(\"Archibald Prize winner May 8 2026\")",
+  "correct": false,
+  "cost": 1.92e-05,
+  "seconds": 1.345855751002091,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "Who won the Archibald Prize on May 8, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"Archibald Prize winner May 8 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "task": {
+    "id": "fresh-80",
+    "source": "fresh",
+    "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+    "answer": "UGC Equity Regulations, 2026",
+    "evidence": "29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "FINAL: On January 29, 2026, the Supreme Court of India stayed the UGC Equity Regulations, 2026 (also known as the Promotion of Equity in Higher Education Institutions Regulations, 2026).",
+  "final": "On January 29, 2026, the Supreme Court of India stayed the UGC Equity Regulations, 2026 (also known as the Promotion of Equity in Higher Education Institutions Regulations, 2026).",
+  "correct": true,
+  "cost": 0.007556,
+  "seconds": 19.00171203699574,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What regulation did the Supreme Court of India stay on January 29, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about a Supreme Court of India stay order from January 29, 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_015vXEvXZx8JAMAsjuRHyUvX",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Supreme Court India stay January 29 2026\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_015vXEvXZx8JAMAsjuRHyUvX",
+      "content": "[Supreme Court of the United States] The Supreme Court of the United States (SCOTUS) is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction\n[UGC Equity Regulations, 2026] Janta Party (BJP) across the country. As of 29 January 2026 [update], the Supreme Court of India has stayed the proposed regulations. The regulations introduce\n[2026 in the United States] journalists can stay \". Reuters. September 14, 2026 . Retrieved September 15, 2026 . Macagnone, Michael (September 14, 2026 ). \" Supreme Court blocks efforts"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! I found that it's related to the UGC Equity Regulations, 2026. Let me get more details about this.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01FN6ZrNvrfmuB8DCyamQQHJ",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"UGC Equity Regulations, 2026\", \"keywords\": \"Supreme Court stay January 29 2026\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01FN6ZrNvrfmuB8DCyamQQHJ",
+      "content": "^ a b Rajagopal, Krishnadas (29 January 2026). \"Supreme Court stays 2026 UGC Equity Regulations, calls it 'too sweeping' \" . The Hindu . ISSN 0971-751X . Retrieved 29 January 2026 .\nThe bill saw protests against the Bharatiya Janta Party (BJP) across the country. [ 2 ] [ 3 ] As of 29 January 2026 [update] , the Supreme Court of India has stayed the proposed regulations. [ 4 ]\n^ \"UGC equity rules hit the streets: Student protests across states intensify as Supreme Court steps in\" . The Times of India . 29 January 2026 . Retrieved 30 January 2026 .\nIn addition to street demonstrations, the Supreme Court has admitted a Public Interest Litigation challenging the constitutional validity of the regulations and has stayed the implementation of the regulations. [ 4 ] The petitioners claim that the regulations are unconstitutional on grounds that they violate articles 14, 15 and 21 of the Constitution and could be misused to target specific sections of the academic community. [ 13 ] Security was increased at several university gates and protest sites following reports of minor clashes between opposing student groups. [ 7 ]\n^ \"Promotion of Equity in Higher Education Institutions Regulations, 2026\" (PDF) . University Grants Commission. 13 January 2026 . Retrieved 4 April 2026 .\n^ \"Student group protests outside UGC office in Delhi, demands complete rollback of equity rules\" . The Hindu . 27 January 2026 . Retrieved 30 January 2026 ."
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: On January 29, 2026, the Supreme Court of India stayed the UGC Equity Regulations, 2026 (also known as the Promotion of Equity in Higher Education Institutions Regulations, 2026).",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

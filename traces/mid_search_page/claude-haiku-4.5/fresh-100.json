@@ -1,0 +1,79 @@
+{
+  "task": {
+    "id": "fresh-100",
+    "source": "fresh",
+    "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+    "answer": "252,756 miles",
+    "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "Based on the search results I found, the information indicates that Artemis II reached a maximum distance of **252,756 miles (406,771 km)** from Earth. This made it the furthest crewed spaceflight at that distance.\n\nHowever, I should note that the search results don't specifically confirm this distance was reached on April 6, 2026. The mission occurred April 1-11, 2026, so April 6 would have been during the mission timeline. The search results indicate this was the maximum distance achieved during the Artemis II mission.\n\nFINAL: Artemis II reached a maximum distance of 252,756 miles (406,771 km) from Earth during its April 1-11, 2026 mission.",
+  "final": "Artemis II reached a maximum distance of 252,756 miles (406,771 km) from Earth during its April 1-11, 2026 mission.",
+  "correct": true,
+  "cost": 0.007608,
+  "seconds": 19.72432865799783,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about Artemis II and the distance reached on April 6, 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01NxSP3rHoBgfe3SFzFVxL4Z",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Artemis II April 6 2026 distance from Earth\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01NxSP3rHoBgfe3SFzFVxL4Z",
+      "content": "[Artemis II] Artemis II ( April 1–11, 2026 ) was a crewed flyby of the Moon and first crewed flight of the NASA-led Artemis program. It was the first crewed flight beyond\n[Artemis program] in 2017 by President Donald Trump. As of 2026 , it has flown two successful missions, Artemis I and Artemis II , with three more planned through the end\n[List of Artemis astronauts] vicinity. At a distance of 252,756 mi (406,771 km) beyond the Earth , Artemis II is currently the furthest crewed spaceflight. The Artemis III crew, who"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me get more specific information from the Artemis II article.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_018UDo4u9qZPGAgjbL27CQbT",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"Artemis II\", \"keywords\": \"April 6 2026 maximum distance Earth\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_018UDo4u9qZPGAgjbL27CQbT",
+      "content": "Page error: HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=parse&page=Artemis+II&prop=text&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the search results I found, the information indicates that Artemis II reached a maximum distance of **252,756 miles (406,771 km)** from Earth. This made it the furthest crewed spaceflight at that distance.\n\nHowever, I should note that the search results don't specifically confirm this distance was reached on April 6, 2026. The mission occurred April 1-11, 2026, so April 6 would have been during the mission timeline. The search results indicate this was the maximum distance achieved during the Artemis II mission.\n\nFINAL: Artemis II reached a maximum distance of 252,756 miles (406,771 km) from Earth during its April 1-11, 2026 mission.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

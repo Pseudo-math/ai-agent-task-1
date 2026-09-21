@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-99",
+    "source": "fresh",
+    "question": "Who became the first US dollar trillionaire in June 2026?",
+    "answer": "Elon Musk",
+    "evidence": "June 12 – Elon Musk becomes the first US dollar trillionaire with the initial public offering of SpaceX.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"first US dollar trillionaire June 2026\")",
+  "final": "web_search(\"first US dollar trillionaire June 2026\")",
+  "correct": false,
+  "cost": 1.77e-05,
+  "seconds": 1.8525110199989285,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "Who became the first US dollar trillionaire in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"first US dollar trillionaire June 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

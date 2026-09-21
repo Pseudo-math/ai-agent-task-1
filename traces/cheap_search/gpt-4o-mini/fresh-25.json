@@ -1,0 +1,171 @@
+{
+  "task": {
+    "id": "fresh-25",
+    "source": "fresh",
+    "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+    "answer": "\"open war\"",
+    "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "I currently do not have access to specific information regarding a declaration made by the government of Pakistan on February 26, 2026, in the context of the Afghanistan–Pakistan war. Therefore, I cannot provide a factual answer. \n\nFINAL: Information unavailable.",
+  "final": "Information unavailable.",
+  "correct": false,
+  "cost": 0.0007542,
+  "seconds": 16.967678785000317,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_uxW72ajeeVadeQMjunYaMbtT",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Afghanistan–Pakistan war February 26 2026 declaration by Pakistan government\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_uxW72ajeeVadeQMjunYaMbtT",
+      "content": "Search error: HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Afghanistan%E2%80%93Pakistan+war+February+26+2026+declaration+by+Pakistan+government&srlimit=3&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_Z4YOZKLh0grDRGcmxRuI4a4h",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Pakistan government declaration February 26 2026\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_Z4YOZKLh0grDRGcmxRuI4a4h",
+      "content": "Search error: HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Pakistan+government+declaration+February+26+2026&srlimit=3&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_QIsUzrMYD81S75hjDYExLePa",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"February 26 2026 Pakistan government announcement\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_QIsUzrMYD81S75hjDYExLePa",
+      "content": "Search error: HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=February+26+2026+Pakistan+government+announcement&srlimit=3&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_OOMrCXpg08WvClLSWYph2NdT",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Pakistan February 26 2026 news\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_OOMrCXpg08WvClLSWYph2NdT",
+      "content": "[2026 Afghanistan–Pakistan war] began in late February 2026 between Afghanistan and Pakistan following Pakistani airstrikes on militant targets in eastern Afghanistan. Pakistan said the strikes\n[2026 in Pakistan] anticipated and scheduled for the year 2026 in Pakistan . The year 2026 will be the 79th year of the independence of Pakistan . 2 January – An anti-terrorism court\n[Pakistan at the 2026 Asian Games] Pakistan is currently participating in the 2026 Asian Games, that are being held in Nagoya, Aichi Prefecture, Japan from 19 September to 4 October 2026"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_VBLekaOHuhacugY8scG1S3K0",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"February 26 2026 Pakistan government statement\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_VBLekaOHuhacugY8scG1S3K0",
+      "content": "Search error: HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=February+26+2026+Pakistan+government+statement&srlimit=3&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_CaGiYNnl3emcEEAB71cpF5sl",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"February 26 2026 Pakistan government declaration news\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_CaGiYNnl3emcEEAB71cpF5sl",
+      "content": "Search error: HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=February+26+2026+Pakistan+government+declaration+news&srlimit=3&format=json"
+    },
+    {
+      "role": "user",
+      "content": "Tools are unavailable now. Answer from gathered evidence. End with FINAL: <short answer>."
+    },
+    {
+      "role": "assistant",
+      "content": "I currently do not have access to specific information regarding a declaration made by the government of Pakistan on February 26, 2026, in the context of the Afghanistan–Pakistan war. Therefore, I cannot provide a factual answer. \n\nFINAL: Information unavailable.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

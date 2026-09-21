@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "fresh-49",
+    "source": "fresh",
+    "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+    "answer": "life imprisonment",
+    "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "Perfect! I found the information. According to the search results, on March 24, 2026, a special NIA (National Investigation Agency) court in India sentenced Kashmiri separatist Asiya Andrabi to life imprisonment.\n\nFINAL: Asiya Andrabi was sentenced to life imprisonment by a special NIA court on March 24, 2026.",
+  "final": "Asiya Andrabi was sentenced to life imprisonment by a special NIA court on March 24, 2026.",
+  "correct": true,
+  "cost": 0.004532,
+  "seconds": 13.108681980003894,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about Asiya Andrabi and the sentence given on March 24, 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_011yYPiE1Udyy9orY2jWJp8A",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Asiya Andrabi sentence March 24 2026 India\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_011yYPiE1Udyy9orY2jWJp8A",
+      "content": "[Asiya Andrabi] Asiya Andrabi is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat\n[2026 in India] city, making India the fourth Asian nation to host the event. 24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment\n[Unlawful Activities (Prevention) Act, 1967] ( 24 March 2026 ). \"Delhi court sentences Kashmiri separatist Asiya Andrabi to life imprisonment\". The Hindu. ISSN 0971-751X. Retrieved 25 March 2026 . The"
+    },
+    {
+      "role": "assistant",
+      "content": "Perfect! I found the information. According to the search results, on March 24, 2026, a special NIA (National Investigation Agency) court in India sentenced Kashmiri separatist Asiya Andrabi to life imprisonment.\n\nFINAL: Asiya Andrabi was sentenced to life imprisonment by a special NIA court on March 24, 2026.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

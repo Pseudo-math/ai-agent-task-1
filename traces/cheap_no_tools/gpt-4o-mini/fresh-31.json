@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-31",
+    "source": "fresh",
+    "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+    "answer": "Aibek Dädebai",
+    "evidence": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+    "page": "2026 in politics",
+    "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"Kazakhstan new government formed after legislative election August 23 2026\")",
+  "final": "web_search(\"Kazakhstan new government formed after legislative election August 23 2026\")",
+  "correct": false,
+  "cost": 2.16e-05,
+  "seconds": 1.3609891039996,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"Kazakhstan new government formed after legislative election August 23 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

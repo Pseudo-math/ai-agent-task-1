@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-66",
+    "source": "fresh",
+    "question": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?",
+    "answer": "at least six",
+    "evidence": "4 April – One person is killed and at least six others are reportedly trapped after a four-story hotel collapses in Anuppur, Madhya Pradesh.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "I will search for information regarding the hotel collapse in Anuppur, Madhya Pradesh in April 2026. \n\nweb_search(\"Anuppur hotel collapse April 2026 number of people trapped\")",
+  "final": "I will search for information regarding the hotel collapse in Anuppur, Madhya Pradesh in April 2026. \n\nweb_search(\"Anuppur hotel collapse April 2026 number of people trapped\")",
+  "correct": false,
+  "cost": 3.6e-05,
+  "seconds": 1.5967154059981112,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information regarding the hotel collapse in Anuppur, Madhya Pradesh in April 2026. \n\nweb_search(\"Anuppur hotel collapse April 2026 number of people trapped\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

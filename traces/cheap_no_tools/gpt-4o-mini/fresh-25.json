@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-25",
+    "source": "fresh",
+    "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+    "answer": "\"open war\"",
+    "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "I will search for information regarding the Pakistan government's declaration on February 26, 2026, related to the Afghanistan–Pakistan war. \n\nweb_search(\"Pakistan government declaration February 26 2026 Afghanistan Pakistan war\")",
+  "final": "I will search for information regarding the Pakistan government's declaration on February 26, 2026, related to the Afghanistan–Pakistan war. \n\nweb_search(\"Pakistan government declaration February 26 2026 Afghanistan Pakistan war\")",
+  "correct": false,
+  "cost": 3.765e-05,
+  "seconds": 1.5036026680027135,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information regarding the Pakistan government's declaration on February 26, 2026, related to the Afghanistan–Pakistan war. \n\nweb_search(\"Pakistan government declaration February 26 2026 Afghanistan Pakistan war\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

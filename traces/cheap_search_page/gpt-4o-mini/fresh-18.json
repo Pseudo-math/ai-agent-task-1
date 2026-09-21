@@ -1,0 +1,171 @@
+{
+  "task": {
+    "id": "fresh-18",
+    "source": "fresh",
+    "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+    "answer": "13 July",
+    "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+    "page": "2026 in Germany",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+    "sonnet_answer": "November 25, 2021",
+    "agent_ok": false
+  },
+  "answer": "A Munich court sentenced an Iraqi couple for enslaving and raping Yazidi girls on July 13, 2026. \n\nFINAL: July 13, 2026.",
+  "final": "July 13, 2026.",
+  "correct": false,
+  "cost": 0.0009028500000000001,
+  "seconds": 63.516242761001195,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_PceN1EgqZqJqljNcnZiLhqTD",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Munich court Iraqi couple enslaving raping Yazidi girls date\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_PceN1EgqZqJqljNcnZiLhqTD",
+      "content": "Search error: HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Munich+court+Iraqi+couple+enslaving+raping+Yazidi+girls+date&srlimit=3&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_blonzl0cKLB4iJG47rEKg41n",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Iraqi couple imprisoned Munich court Yazidi girls\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_blonzl0cKLB4iJG47rEKg41n",
+      "content": "[Yazidi genocide] against Yazidi women and children between 2014 and 2016. In July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple , identified\n[2026 Munich Yazidi genocide trial] \"German court convicts Iraqi couple of enslaving Yazidi girls for Islamic State\". Human Events. 2026-07-13. Retrieved 2026-07-16. \"German Court Sentences\n[Iraq War] prosecution in Iraqi courts . He said that Iraqi rule in the country is not complete while the occupiers are present, but that ultimately the Iraqi people would"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_w9OvZuBJ4LDdCOEPswy4faKE",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\":\"Yazidi genocide\",\"keywords\":\"Munich court Iraqi couple enslaving raping Yazidi girls\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_w9OvZuBJ4LDdCOEPswy4faKE",
+      "content": "Page error: HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://en.wikipedia.org/w/api.php?action=parse&page=Yazidi+genocide&prop=text&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_rILQ7AOcDwMkcky0AlxYKi43",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Munich court Iraqi couple enslaving Yazidi girls July 2026\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_rILQ7AOcDwMkcky0AlxYKi43",
+      "content": "Search error: HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Munich+court+Iraqi+couple+enslaving+Yazidi+girls+July+2026&srlimit=3&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_6yiFAjMoDx6nutZKCPSSLAuY",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Iraqi couple sentenced Munich court Yazidi girls\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_6yiFAjMoDx6nutZKCPSSLAuY",
+      "content": "Search error: HTTPError: 429 Client Error: Too many requests (f061ab2) for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Iraqi+couple+sentenced+Munich+court+Yazidi+girls&srlimit=3&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_ETlTMCeUykenB0qJ19OLCpe4",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\":\"Munich court Iraqi couple enslaving Yazidi girls date\",\"language\":\"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ETlTMCeUykenB0qJ19OLCpe4",
+      "content": "Search error: HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Munich+court+Iraqi+couple+enslaving+Yazidi+girls+date&srlimit=3&format=json"
+    },
+    {
+      "role": "user",
+      "content": "Tools are unavailable now. Answer from gathered evidence. End with FINAL: <short answer>."
+    },
+    {
+      "role": "assistant",
+      "content": "A Munich court sentenced an Iraqi couple for enslaving and raping Yazidi girls on July 13, 2026. \n\nFINAL: July 13, 2026.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

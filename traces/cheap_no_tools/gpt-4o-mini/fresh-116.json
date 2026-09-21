@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-116",
+    "source": "fresh",
+    "question": "Who was associated with the 2026 U.S. Women's Open held in California?",
+    "answer": "Nelly Korda",
+    "evidence": "June 4–7: 2026 U.S. Women's Open at Riviera Country Club in Pacific Palisades, California – Nelly Korda",
+    "page": "2026 in sports",
+    "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+    "sonnet_answer": "The 2026 U.S. Women's Open is scheduled to be held at Riviera Country Club in Pacific Palisades, California. Riviera Country Club is historically associated with Ben Hogan, who won there multiple times and gave the course its nickname 'Hogan's Alley.'",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"2026 U.S. Women's Open California news\")",
+  "final": "web_search(\"2026 U.S. Women's Open California news\")",
+  "correct": false,
+  "cost": 1.815e-05,
+  "seconds": 1.7716462110001885,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "Who was associated with the 2026 U.S. Women's Open held in California?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"2026 U.S. Women's Open California news\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

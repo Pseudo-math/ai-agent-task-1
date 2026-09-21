@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-104",
+    "source": "fresh",
+    "question": "How many people were killed in the bus accident in Udhampur, Jammu and Kashmir?",
+    "answer": "21",
+    "evidence": "20 April – A bus falls into a gorge in Udhampur, Jammu and Kashmir, killing 21 people and injuring 45 others.",
+    "page": "2026 in India",
+    "url": "https://en.wikipedia.org/wiki/2026_in_India",
+    "sonnet_answer": "Could you clarify which specific incident you're referring to? There have been multiple bus accidents in Udhampur. One notable accident killed 10 people, but different incidents have had different death tolls.",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"Udhampur bus accident October 2023\")",
+  "final": "web_search(\"Udhampur bus accident October 2023\")",
+  "correct": false,
+  "cost": 1.905e-05,
+  "seconds": 1.6510450749992742,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "How many people were killed in the bus accident in Udhampur, Jammu and Kashmir?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"Udhampur bus accident October 2023\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-57",
+    "source": "fresh",
+    "question": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?",
+    "answer": "Yoon Suk Yeol",
+    "evidence": "7 July – The Supreme Court upholds the 7-year prison sentence and 5-year suspended sentence for former President Yoon Suk Yeol, who was convicted on charges of inciting insurrection and interfering with official duties by ordering his security service to block the execution of a court warrant.",
+    "page": "2026 in South Korea",
+    "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "I will search for information regarding a former President who was upheld with a 7-year prison sentence in July 2026. \n\nweb_search(\"former President 7-year prison sentence July 2026\")",
+  "final": "I will search for information regarding a former President who was upheld with a 7-year prison sentence in July 2026. \n\nweb_search(\"former President 7-year prison sentence July 2026\")",
+  "correct": false,
+  "cost": 3.57e-05,
+  "seconds": 1.5687611819994345,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information regarding a former President who was upheld with a 7-year prison sentence in July 2026. \n\nweb_search(\"former President 7-year prison sentence July 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

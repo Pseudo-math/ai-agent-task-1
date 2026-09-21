@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-60",
+    "source": "fresh",
+    "question": "What is the number of people arrested in Ankara in June 2026?",
+    "answer": "209",
+    "evidence": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.",
+    "page": "2026 in Turkey",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"Ankara arrests June 2026\")",
+  "final": "web_search(\"Ankara arrests June 2026\")",
+  "correct": false,
+  "cost": 1.665e-05,
+  "seconds": 1.2933358620030049,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What is the number of people arrested in Ankara in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"Ankara arrests June 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "task": {
+    "id": "fresh-18",
+    "source": "fresh",
+    "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+    "answer": "13 July",
+    "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+    "page": "2026 in Germany",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+    "sonnet_answer": "November 25, 2021",
+    "agent_ok": false
+  },
+  "answer": "Perfect! I found the information. According to the Wikipedia article on the Yazidi genocide, the Munich court convicted the Iraqi couple in July 2026.\n\nFINAL: In July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple (Twana H.S. and Asia R.A.) of genocide, crimes against humanity, and war crimes for enslaving and sexually abusing Yazidi girls.",
+  "final": "In July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple (Twana H.S. and Asia R.A.) of genocide, crimes against humanity, and war crimes for enslaving and sexually abusing Yazidi girls.",
+  "correct": false,
+  "cost": 0.011276999999999999,
+  "seconds": 25.907314110001607,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about this case involving a Munich court and an Iraqi couple accused of enslaving and raping Yazidi girls.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01PffrFeTvoW1Y1JJfHVChdG",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Munich court Iraqi couple enslaving raping Yazidi girls imprisoned\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01PffrFeTvoW1Y1JJfHVChdG",
+      "content": "Search error: HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Munich+court+Iraqi+couple+enslaving+raping+Yazidi+girls+imprisoned&srlimit=3&format=json"
+    },
+    {
+      "role": "assistant",
+      "content": "Let me try a more specific search:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01QByscsKu4Pjsiv7NfQo5Cd",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"Munich court Yazidi slavery case Iraqi couple\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01QByscsKu4Pjsiv7NfQo5Cd",
+      "content": "[Yazidi genocide] against Yazidi women and children between 2014 and 2016. In July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple , identified\n[Iraq War] prosecution in Iraqi courts . He said that Iraqi rule in the country is not complete while the occupiers are present, but that ultimately the Iraqi people would\n[Turkish War of Independence] partitioned between Greece, Italy, France (via Syrian mandate), Britain (via Iraqi mandate), Armenia (potentially under an American mandate), and Georgia."
+    },
+    {
+      "role": "assistant",
+      "content": "Great! I found a reference to the Yazidi genocide article. Let me get more details from that article:",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_017x3f2fdnPJokjjnYPk2rxq",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"Yazidi genocide\", \"keywords\": \"Munich court Iraqi couple imprisoned July 2026\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_017x3f2fdnPJokjjnYPk2rxq",
+      "content": "In July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple , identified as Twana H.S. and Asia R.A., of genocide, crimes against humanity, and war crimes over the enslavement, torture, and sexual abuse of two Yazidi girls between 2015 and 2017. Twana H.S. was sentenced to life imprisonment, and Asia R.A. was given a juvenile sentence of nine years and six months. [ 201 ] [ 202 ]\nGacaca trials (2001–2012) International Criminal Court investigation in Darfur (2005–) Permanent Peoples' Tribunal on Sri Lanka (2010–2023) International Crimes Tribunal of Bangladesh (2012–) Rohingya genocide case (2019–) International Criminal Court investigation in Bangladesh/Myanmar (2019–) Uyghur Tribunal (2020–2021) al-Jumailly trial (2020–2021) Nouri trial (2021–2022) International Criminal Court investigation in Ukraine (2022–) Universal jurisdiction investigations of war crimes in Ukraine (2022–) Ukraine v. Russian Federation (2022–) South Africa v. Israel (2023–) Defense for Children International – Palestine et al v. Biden et al (2023–2024) Nicaragua v. Germany (2024) Munich Yazidi genocide trial (2024–2026)\n21st century Gacaca trials (2001–2012) International Criminal Court investigation in Darfur (2005–) Permanent Peoples' Tribunal on Sri Lanka (2010–2023) International Crimes Tribunal of Bangladesh (2012–) Rohingya genocide case (2019–) International Criminal Court investigation in Bangladesh/Myanmar (2019–) Uyghur Tribunal (2020–2021) al-Jumailly trial (2020–2021) Nouri trial (2021–2022) International Criminal Court investigation in Ukraine (2022–) Universal jurisdiction investigations of war crimes in Ukraine (2022–) Ukraine v. Russian Federation (2022–) South Africa v. Israel (2023–) Defense for Children International – Palestine et al v. Biden et al (2023–2024) Nicaragua v. Germany (2024) Munich Yazidi genocide trial (2024–2026)\nLegal proceedings Holocaust trials (1943–2022) Krasnodar trial (1943) Kharkov trial (1943) Majdanek trials (1944–1989) Chełmno trials (1945–2001) Dachau trials (1945–1947) Belsen trials (1945–1948) Euthanasia trials (1945–1949) Nuremberg trial (1945–1946) Minsk trial (1945–1946) Riga trial (1946) Stutthof trials (1946–1947) Post–World War II Romanian war crime trials (1946–1953) Supreme National Tribunal (1946–1948) Hamburg Ravensbrück trials (1946–1948) Nuremberg Military Tribunals (1946–1949) Erich von Manstein (1949) Ulm Einsatzkommando trial (1958) War crimes trials in Soviet Estonia (1961–1962) Eichmann trial (1961) Belzec trial (1963–1965) Frankfurt Auschwitz trials (1963–1989) Treblinka trials (1964–1970) Sobibor trial (1965–1966) Deschênes Commission (1985–1986) Fedorenko trial (1986) Demjanjuk trials (1986–2012) Polyukhovich v Commonwealth (1991–1992) Finta trial (1994) R v Finta Gröning trial (2014–2015) 20th century Budak trial (1945) International Military Tribunal for the Far East (1946–1948) Belgrade Process (1946) Nanjing War Crimes Tribunal (1946–1948) Kahan Commission (1982–1983) Bosnian genocide case (1993–2007) International Criminal Tribunal for the former Yugoslavia (1993–2017) Milošević trial (2002–2006) Karadžić trial (2008–2016) Mladić trial (2011–2017) Trials of the Derg members (1994–2008) International Criminal Tribunal for Rwanda (1994–2015) Khmer Rouge Tribunal (1997–2022) Croatia–Serbia genocide case (1999–2015) 21st century Gacaca trials (2001–2012) International Criminal Court investigation in Darfur (2005–) Permanent Peoples' Tribunal on Sri Lanka (2010–2023) International Crimes Tribunal of Bangladesh (2012–) Rohingya genocide case (2019–) International Criminal Court investigation in Bangladesh/Myanmar (2019–) Uyghur Tribunal (2020–2021) al-Jumailly trial (2020–2021) Nouri trial (2021–2022) International Criminal Court investigation in Ukraine (2022–) Universal jurisdiction investigations of war crimes in Ukraine (2022–) Ukraine v. Russian Federation (2022–) South Africa v. Israel (2023–) Defense for Children International – Palestine et al v. Biden et al (2023–2024) Nicaragua v. Germany (2024) Munich Yazidi genocide trial (2024–2026)\nMunich Yazidi genocide trial (2024–2026)\n^ \"OLG München zu Verbrechen gegen jesidische Mädchen\" . Legal Tribune Online (in German). 13 July 2026 . Retrieved 16 July 2026 ."
+    },
+    {
+      "role": "assistant",
+      "content": "Perfect! I found the information. According to the Wikipedia article on the Yazidi genocide, the Munich court convicted the Iraqi couple in July 2026.\n\nFINAL: In July 2026, the Higher Regional Court of Munich convicted an Iraqi Kurdish couple (Twana H.S. and Asia R.A.) of genocide, crimes against humanity, and war crimes for enslaving and sexually abusing Yazidi girls.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

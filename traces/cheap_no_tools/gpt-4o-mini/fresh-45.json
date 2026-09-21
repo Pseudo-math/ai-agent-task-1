@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-45",
+    "source": "fresh",
+    "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+    "answer": "F-16 Fighting Falcon",
+    "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+    "page": "2026 in Turkey",
+    "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+    "sonnet_answer": "unknown",
+    "agent_ok": true
+  },
+  "answer": "web_search(\"Yalova Province Turkey aircraft crash August 13 2026\")",
+  "final": "web_search(\"Yalova Province Turkey aircraft crash August 13 2026\")",
+  "correct": false,
+  "cost": 2.115e-05,
+  "seconds": 1.5774758900006418,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "web_search(\"Yalova Province Turkey aircraft crash August 13 2026\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

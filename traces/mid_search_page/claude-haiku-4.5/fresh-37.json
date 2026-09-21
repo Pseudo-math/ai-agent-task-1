@@ -1,0 +1,79 @@
+{
+  "task": {
+    "id": "fresh-37",
+    "source": "fresh",
+    "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+    "answer": "15 June",
+    "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+    "page": "2026 in the United Kingdom",
+    "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "FINAL: Resident doctors in England announced a four-day strike on 27 May 2026.",
+  "final": "Resident doctors in England announced a four-day strike on 27 May 2026.",
+  "correct": false,
+  "cost": 0.007542999999999999,
+  "seconds": 17.807116629999655,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for information about the resident doctors' strike in England in June 2026.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01Vv9LNGCw8fzZ37kQHhphgL",
+          "function": {
+            "name": "web_search",
+            "arguments": "{\"query\": \"resident doctors England four-day strike June 2026\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01Vv9LNGCw8fzZ37kQHhphgL",
+      "content": "[2026 in England] hot bath as a punishment. 27 May – Resident doctors announce a four - day strike from 7am on 15 June , their 16th strike action over a pay dispute. At a hearing\n[2026 European heatwaves] Retrieved 6 July 2026. \" Doctors warn rural residents of heatstroke during heatwave\". moldova1. 29 June 2026 . Retrieved 6 July 2026 . \"Căldura lovește din\n[2026 in the United Kingdom] for south west England and parts of Wales. Resident doctors in England announce a four - day strike from 7am on 15 June , their 16th strike action over a"
+    },
+    {
+      "role": "assistant",
+      "content": "Perfect! I found the information. Let me get more details from the Wikipedia article about 2026 in England.",
+      "refusal": null,
+      "reasoning": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_bdrk_01VZGcGnNArh9RAPLtvmKp7k",
+          "function": {
+            "name": "page_find",
+            "arguments": "{\"title\": \"2026 in England\", \"keywords\": \"resident doctors strike June announce May\", \"language\": \"en\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_bdrk_01VZGcGnNArh9RAPLtvmKp7k",
+      "content": "27 May – Resident doctors announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute. [ 224 ] At a hearing at Bristol Crown Court, Kelcie Reed pleads guilty to being in charge of a dog dangerously out control, causing the death of her cousin, Morgan Dorsett, during an incident at her home in February 2025. [ 225 ] A Freedom of Information request reveals that 13 fines issued by Oxford City Council for breaches of its congestion charge were cancelled due to the drivers being deceased. [ 226 ] At a hearing at Wolverhampton Crown Court , Tanveer Singh is sentenced to life imprisonment with a minimum term of 29 years for the murder of Shara Millar, a sex worker who he attacked in the back of his van after seeking services from her during a night out in August 2025. [ 227 ]\nResident doctors announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute. [ 224 ]\n^ Triggle, Nick (27 May 2026). \"Resident doctors to strike in England for 16th time over pay\" . BBC News . BBC . Retrieved 27 May 2026 .\nThe British Medical Association announces that resident doctors in England will stage a six-day strike from 7am on 7 April after talks between union representatives and the UK government broke down. [ 129 ]\n25 March – The British Medical Association announces that resident doctors in England will stage a six-day strike from 7am on 7 April after talks between union representatives and the UK government broke down. [ 129 ] Nigel Dewale is given a suspended prison sentence after sending racially offensive messages to footballer Jess Carter via social media during Euro 2025 . [ 130 ]\n7 April – Resident doctors in England begin a six-day strike [ 148 ] Former police officer Mark Roberts is sentenced to two years and three months after killing motorcycle passenger Muriel Pinkney while speeding to an emergency call in Gateshead in 2022. [ 149 ] The UK government announces that Plan 2 student loans in England will be capped at 6% during the next academic year. [ 150 ] A murder investigation is launched following the fatal stabbing of a 21-year-old man, subsequently named as Finbar Sullivan, at a beauty spot in Primrose Hill , London. [ 151 ] The derelict Sherwood Hotel in Torquay is destroyed by fire. [ 152 ]"
+    },
+    {
+      "role": "assistant",
+      "content": "FINAL: Resident doctors in England announced a four-day strike on 27 May 2026.",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}

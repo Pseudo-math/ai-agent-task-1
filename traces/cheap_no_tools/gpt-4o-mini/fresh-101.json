@@ -1,0 +1,35 @@
+{
+  "task": {
+    "id": "fresh-101",
+    "source": "fresh",
+    "question": "What is the duration of the ceasefire in the 2026 Lebanon war?",
+    "answer": "10-day",
+    "evidence": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+    "page": "2026",
+    "url": "https://en.wikipedia.org/wiki/2026",
+    "sonnet_answer": "unknown",
+    "agent_ok": false
+  },
+  "answer": "I will search for information regarding the duration of the ceasefire in the 2026 Lebanon war. \n\nweb_search(\"2026 Lebanon war ceasefire duration\")",
+  "final": "I will search for information regarding the duration of the ceasefire in the 2026 Lebanon war. \n\nweb_search(\"2026 Lebanon war ceasefire duration\")",
+  "correct": false,
+  "cost": 2.94e-05,
+  "seconds": 1.9494501070003025,
+  "error": "",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer factual questions using tools instead of guessing. First use web_search, then page_find on the best article. Do not repeat an identical tool call. End with exactly one line FINAL: <short answer>."
+    },
+    {
+      "role": "user",
+      "content": "What is the duration of the ceasefire in the 2026 Lebanon war?"
+    },
+    {
+      "role": "assistant",
+      "content": "I will search for information regarding the duration of the ceasefire in the 2026 Lebanon war. \n\nweb_search(\"2026 Lebanon war ceasefire duration\")",
+      "refusal": null,
+      "reasoning": null
+    }
+  ]
+}
